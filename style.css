@@ -1,0 +1,117 @@
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.border{
+  border:2px solid black;
+}
+
+.auto {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sm {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.md {
+width: 32%;
+display: flex;
+justify-content: center;
+}
+
+.lg {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+}
+
+.xl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.menu-item {
+  margin: 2%;
+}
+
+.center {
+  align-self: center;
+}
+
+.projects {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 2%;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  width: 250px;
+  height:250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 2em;
+}
+
+.desc {
+  background-color: beige;
+  opacity: rgba(0,0,0,.6);
+  margin: auto;
+  padding: 0;
+}
+
+.set {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+.hide{
+  display: none;
+}
+
+.resume-modal {
+  height:100vh;
+  width: 100vw;
+  background: white;
+  position: fixed;
+  z-index: 100 !important;
+  align-items: flex-start;
+}
+
+.resume {
+  margin: 2%;
+}
+
+#cancel {
+  position: fixed;
+  left:5px;
+  top: 5px;
+}
